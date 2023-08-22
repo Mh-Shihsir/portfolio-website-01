@@ -14,6 +14,13 @@ body {
   padding: 15px 35px;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
 /* Nav Related Style */
 /* Above comments will shortly add "Ctrl+K+CKC" */
 
@@ -21,7 +28,6 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0 200px;
-  
 }
 /* display: flex; = both in one line */
 
@@ -37,7 +43,7 @@ nav {
 
 nav > ul {
   display: flex;
-  align-items:center ;
+  align-items: center;
 }
 /* nav> ul; = nav imidiate ul */
 
@@ -52,19 +58,63 @@ nav a {
   color: #474747;
 }
 
-
 /* Header style */
 
 .header {
-  background-color: #FFF8F3;;
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 500px;
 }
 
 .banner .profile-img {
   width: 500px;
+}
+
+.banner-gretting {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.banner-paragraph {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* main section Style */
+
+/* About Section style */
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px;
+}
+
+.1st-section-para {
+  color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
