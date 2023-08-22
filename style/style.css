@@ -158,3 +158,10 @@ main section {
   font-size: 30px;
   font-weight: 700;
 }
+
+
+/* Resume section style */
+
+.resume-container {
+  display: flex;
+}
